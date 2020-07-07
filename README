@@ -1,0 +1,1 @@
+objcopy -O binary -j .text -j .data -j .bss --set-section-flags .bss=alloc,load,contents test2.o test

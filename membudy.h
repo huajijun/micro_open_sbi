@@ -12,7 +12,7 @@ typedef struct List {
 	struct Mem *Head;
 	int size;
 }List[M];
-
+char Memory[4*8*1024*1024];
 void InitSpace(FreeList avail);
 
 WORD* AllocBuddy(FreeList avail, int n);
